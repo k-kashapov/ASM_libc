@@ -18,7 +18,7 @@ _start:
 
 	call printf
 
-	times 3 pop rax
+	add rsp, 24
 
 	mov rdi, [stdout]
 	call fflush
